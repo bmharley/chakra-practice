@@ -1,0 +1,40 @@
+{
+  "name": "star-wars-characters-chakra",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --watch --coverage",
+    "test:ci": "jest --ci",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "framer-motion": "^11.1.7",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "styled-components": "^6.1.8",
+    "styled-normalize": "^8.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "fetch-mock-jest": "^1.5.1",
+    "jest": "latest",
+    "jest-environment-jsdom": "latest",
+    "typescript": "latest"
+  }
+}
