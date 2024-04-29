@@ -15,12 +15,12 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "classnames": "^2.5.1",
     "framer-motion": "^11.1.7",
     "next": "latest",
+    "normalize.css": "^8.0.1",
     "react": "latest",
-    "react-dom": "latest",
-    "styled-components": "^6.1.8",
-    "styled-normalize": "^8.1.0"
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "latest",
@@ -35,6 +35,7 @@
     "fetch-mock-jest": "^1.5.1",
     "jest": "latest",
     "jest-environment-jsdom": "latest",
+    "node-fetch": "^2.7.0",
     "typescript": "latest"
   }
 }

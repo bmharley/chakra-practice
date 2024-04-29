@@ -1,7 +1,9 @@
+import { Providers } from './providers'
 import type { Metadata } from 'next';
-import StyledComponentsRegistry from '@/lib/registry';
-import GlobalWrapper from '@/app/ui/components/globalWrapper'
 import { APP_NAME, APP_DESCRIPTION } from './common/constants';
+import { fonts } from '@/app/common/fonts';
+import 'normalize.css/normalize.css';
+import classNames from 'classnames';
 
 export const metadata: Metadata = {
   title: {
@@ -17,13 +19,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'>
+    <html lang='en' className={classNames(fonts.lexend.variable, fonts.bigShouldersDisplay.variable)}>
       <body>
-        <StyledComponentsRegistry>
-            <GlobalWrapper>
-              {children}
-            </GlobalWrapper>
-        </StyledComponentsRegistry>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

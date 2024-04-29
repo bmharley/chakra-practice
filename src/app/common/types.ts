@@ -1,13 +1,7 @@
 export enum CharacterTypes {
-  HERO,
-  HEROINE,
-  VILLAIN,
-};
-
-export enum CharacterIds {
-  HERO,
-  HEROINE,
-  VILLAIN,
+  HERO = 'hero',
+  VILLAIN = 'villain',
+  HEROINE = 'heroine',
 };
 
 export enum CharacterIds {

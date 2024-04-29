@@ -1,18 +1,13 @@
 'use client';
 
-import styled from 'styled-components';
-
-export const ErrorMessage = styled.p`
-  max-width: 400px;
-  margin: 60px auto;
-  font-size: 36px;
-  text-align: center;
-  font-style: italic;
-  color: var(--color-error);
-`;
+import { Alert, AlertDescription, AlertIcon, AlertTitle } from '@chakra-ui/react';
 
 export default function Error() {
   return (
-    <ErrorMessage>Oops, sorry something went wrong</ErrorMessage>
+    <Alert status='error'>
+      <AlertIcon />
+      <AlertTitle>Oops</AlertTitle>
+      <AlertDescription>Sorry, something went wrong</AlertDescription>
+    </Alert>
   );
 }
